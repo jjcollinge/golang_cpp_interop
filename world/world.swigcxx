@@ -1,0 +1,8 @@
+%module world
+%{
+/* Includes the header in the wrapper code */
+#include "world.hxx"
+%}
+
+/* Parse the header file to generate wrappers */
+%include "world.hxx"
